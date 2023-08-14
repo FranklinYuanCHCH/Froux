@@ -1,0 +1,38 @@
+/* header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+} */
+/* Reset default margin and padding for consistency */
+/* Reset default margin and padding for consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 40px;
+    height: auto;
+}
+
+/* Style the brand name */
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Center the text horizontally */
+    flex-grow: 1; /* Expand to fill available space */
+    margin: 0 auto; /* Center the brand name horizontally */
+}
